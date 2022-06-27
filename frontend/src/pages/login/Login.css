@@ -1,0 +1,29 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.lContainer {
+  border: 1px solid lightblue;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 20vw;
+}
+
+.lInput {
+  padding: 0.5rem;
+}
+
+.lButton {
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: rgb(34, 84, 175);
+  color: white;
+  border: none;
+}
