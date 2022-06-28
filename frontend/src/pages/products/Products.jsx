@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import useFetch from "../../hooks/useFetch";
 import { useEffect } from "react";
 import axios from "axios";
+import Topbar from "../../components/topbar/Topbar";
+import Sidebar from "../../components/sidebar/Sidebar";
 
 const Products = () => {
   const [list, setList] = useState([]);
@@ -83,16 +85,23 @@ const Products = () => {
   ];
 
   return (
-    <div>
-      <div style={{ height: "80vh", width: "100%" }}>
-        <DataGrid
-          rows={list}
-          columns={columns}
-          pageSize={10}
-          rowsPerPageOptions={[10]}
-          disableSelectionOnClick
-          getRowId={(row) => row._id}
-        />
+    <div className="ordersContainer">
+      <Topbar />
+      <div className="pageContentContainer">
+        <Sidebar />
+        <div className="dataTableContainer">
+          <h2 className="orderTitle">Products</h2>
+          <div style={{ height: "80vh", width: "100%" }}>
+            <DataGrid
+              rows={list}
+              columns={columns}
+              pageSize={10}
+              rowsPerPageOptions={[10]}
+              disableSelectionOnClick
+              getRowId={(row) => row._id}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
