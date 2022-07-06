@@ -78,7 +78,7 @@ const Products = () => {
   return (
     <div className="products">
       <Topbar />
-      <div className="pageContentContainer">
+      <div className="productsContainer">
         <Sidebar />
         <div className="productsContent">
           <div className="productTitleRow">
