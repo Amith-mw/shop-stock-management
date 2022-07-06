@@ -1,18 +1,39 @@
-.users {
-  /* flex: 4; */
+.products {
+  margin: 0 auto;
 }
-.productEdit {
-  border: none;
-  padding: 0.5rem 0.75rem;
-  background-color: green;
-  color: white;
-  cursor: pointer;
+
+.pageContentContainer {
+  display: flex;
 }
-.productDelete {
-  margin-left: 0.25rem;
-  border: none;
-  padding: 0.5rem 0.75rem;
-  background-color: rgb(172, 43, 43);
+
+.productsContent {
+  flex: 4;
+}
+
+.productTitleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.productsTitle {
+  font-size: 2rem;
+  margin: 1rem 0 1rem 1rem;
+}
+
+.btnAddNew {
+  background-color: rgb(13, 115, 13);
   color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem;
   cursor: pointer;
+  border: none;
+}
+
+.productsTable {
+  padding: 1rem;
+  height: 80vh;
+  width: 90%;
 }
