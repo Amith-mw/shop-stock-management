@@ -1,12 +1,25 @@
-.pageContentContainer {
+.ordersContainer {
   display: flex;
 }
 
-.orderTitle {
-  margin-bottom: 1.5rem;
+.ordersContent {
+  flex: 4;
+  padding: 1.5rem;
 }
 
-.dataTableContainer {
-  flex: 4;
-  padding: 2rem 3rem;
+.ordersTitleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.ordersTitle {
+  font-size: 2rem;
+}
+
+.ordersTable {
+  margin-top: 1rem;
+  height: 80vh;
+  width: 90%;
 }
