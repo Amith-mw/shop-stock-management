@@ -2,9 +2,9 @@
   display: flex;
 }
 
-.rightSideContent {
+.CreateProductContent {
   flex: 4;
-  padding: 1rem;
+  padding: 1.5rem 3rem;
 }
 
 .title {
@@ -20,9 +20,6 @@ form {
   flex-direction: column;
   gap: 0.5rem;
   width: 60%;
-}
-
-label {
 }
 
 input {

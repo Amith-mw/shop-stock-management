@@ -1,17 +1,17 @@
-.content {
+.CreateOrderContainer {
   display: flex;
 }
 
-.rightSideContent {
+.CreateOrderContent {
   flex: 4;
-  padding: 1rem;
+  padding: 1.5rem 3rem;
 }
 
 .title {
   font-size: 2rem;
 }
 
-.createProductForm {
+.createOrderForm {
   margin-top: 3rem;
 }
 
@@ -20,9 +20,6 @@ form {
   flex-direction: column;
   gap: 0.5rem;
   width: 60%;
-}
-
-label {
 }
 
 input {
