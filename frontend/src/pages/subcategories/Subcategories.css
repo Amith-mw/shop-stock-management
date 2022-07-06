@@ -1,0 +1,19 @@
+.subCategoriesContainer {
+  display: flex;
+}
+
+.subCategoriesContent {
+  flex: 4;
+  padding: 1.5rem;
+}
+
+.subCategoryTitleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.subCategoryTitle {
+  font-size: 2rem;
+}

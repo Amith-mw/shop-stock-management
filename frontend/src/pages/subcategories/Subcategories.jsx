@@ -58,13 +58,13 @@ const actionButtons = [];
 
 const Subcategories = () => {
   return (
-    <div className="categories">
+    <div className="subCategories">
       <Topbar />
-      <div className="pageContentContainer">
+      <div className="subCategoriesContainer">
         <Sidebar />
-        <div className="categoryContent">
-          <div className="categoryTitleRow">
-            <h2 className="categoryTitle">Sub Categories</h2>
+        <div className="subCategoriesContent">
+          <div className="subCategoryTitleRow">
+            <h2 className="subCategoryTitle">Sub Categories</h2>
             <Button
               btnName={""}
               btnColor={"blue"}
