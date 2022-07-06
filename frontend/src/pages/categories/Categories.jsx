@@ -60,7 +60,7 @@ const Categories = () => {
   return (
     <div className="categories">
       <Topbar />
-      <div className="pageContentContainer">
+      <div className="categoriesContainer">
         <Sidebar />
         <div className="categoryContent">
           <div className="categoryTitleRow">
@@ -74,7 +74,7 @@ const Categories = () => {
             {/* <button className="btnAddNew">Add Product</button> */}
           </div>
 
-          <div className="brandsTable">
+          <div className="categoriesTable">
             <DataGrid
               rows={categoriesList}
               columns={columns}
