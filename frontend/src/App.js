@@ -15,8 +15,11 @@ import "./app.css";
 import CreateProduct from "./pages/products/CreateProduct";
 import CreateOrder from "./pages/orders/CreateOrder";
 import Brands from "./pages/brands/Brands";
+import CreateBrand from "./pages/brands/CreateBrand";
 import Categories from "./pages/categories/Categories";
+import CreateCategory from "./pages/categories/CreateCategory";
 import Subcategories from "./pages/subcategories/Subcategories";
+import CreateSubcategory from "./pages/subcategories/CreateSubcategory";
 
 function App() {
   const ProtectedRoute = ({ children }) => {
@@ -42,9 +45,15 @@ function App() {
             element={<Products />}
           ></Route>
           <Route path="brands" element={<Brands />}></Route>
+          <Route path="brands/create" element={<CreateBrand />}></Route>
           <Route path="categories" element={<Categories />}></Route>
+          <Route path="categories/create" element={<CreateCategory />}></Route>
           <Route path="subcategories" element={<Subcategories />}></Route>
-          <Route path="createproduct" element={<CreateProduct />} />
+          <Route
+            path="subcategories/create"
+            element={<CreateSubcategory />}
+          ></Route>
+          <Route path="products/create" element={<CreateProduct />} />
           <Route path="orders" element={<Orders />}></Route>
           <Route path="orders/create" element={<CreateOrder />}></Route>
           <Route path="sales" element={<Sales />} />
