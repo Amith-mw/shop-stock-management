@@ -7,7 +7,7 @@
 }
 
 .sidebarWrapper {
-  margin: 20px;
+  margin: 1rem;
   color: #555;
   font-weight: 600;
 }
@@ -18,7 +18,7 @@
 }
 
 .sidebarListItem {
-  padding: 0.5rem;
+  padding: 0.8rem;
   cursor: pointer;
 }
 

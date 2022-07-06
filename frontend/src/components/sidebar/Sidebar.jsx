@@ -10,6 +10,18 @@ function Sidebar() {
           {/* <div className="sidebarTitle">Dashboard</div> */}
           <ul className="sidebarList">
             <li className="sidebarListItem">
+              <Link to={"/brands"}>BRANDS</Link>
+            </li>
+
+            <li className="sidebarListItem">
+              <Link to={"/categories"}>CATEGORIES</Link>
+            </li>
+
+            <li className="sidebarListItem">
+              <Link to={"/subcategories"}>SUB CATEGORIES</Link>
+            </li>
+
+            <li className="sidebarListItem">
               <Link to={"/products"}>PRODUCTS</Link>
             </li>
 
