@@ -1,0 +1,12 @@
+.pageContentContainer {
+  display: flex;
+}
+
+.orderTitle {
+  margin-bottom: 1.5rem;
+}
+
+.dataTableContainer {
+  flex: 4;
+  padding: 2rem 3rem;
+}
