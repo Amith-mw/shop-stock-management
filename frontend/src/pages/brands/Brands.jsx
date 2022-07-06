@@ -62,7 +62,7 @@ const Brands = () => {
   return (
     <div className="brands">
       <Topbar />
-      <div className="pageContentContainer">
+      <div className="brandsContainer">
         <Sidebar />
         <div className="brandsContent">
           <div className="brandTitleRow">
