@@ -8,6 +8,7 @@ import Button from "../../components/button/Button";
 import AddOutlinedIcon from "@mui/icons-material/AddOutlined";
 import DeleteOutlinedIcon from "@mui/icons-material/DeleteOutlined";
 import ModeEditOutlineOutlinedIcon from "@mui/icons-material/ModeEditOutlineOutlined";
+import { Link } from "react-router-dom";
 
 const columns = [
   // { field: "id", headerName: "ID", width: 70 },
@@ -65,12 +66,15 @@ const Subcategories = () => {
         <div className="subCategoriesContent">
           <div className="subCategoryTitleRow">
             <h2 className="subCategoryTitle">Sub Categories</h2>
-            <Button
-              btnName={""}
-              btnColor={"blue"}
-              btnIcon={<AddOutlinedIcon />}
-              style={{ marginRight: "0.5rem" }}
-            />
+            <Link to={"/subcategories/create"}>
+              <Button
+                btnName={""}
+                btnColor={"blue"}
+                btnIcon={<AddOutlinedIcon />}
+                style={{ marginRight: "0.5rem" }}
+              />
+            </Link>
+
             {/* <button className="btnAddNew">Add Product</button> */}
           </div>
 
