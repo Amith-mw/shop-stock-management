@@ -1,0 +1,16 @@
+.createCategoryContainer {
+  display: flex;
+}
+
+.createCategoryContent {
+  flex: 4;
+  padding: 1.5rem 3rem;
+}
+
+.createCategoryForm {
+  margin-top: 3rem;
+}
+
+.btnContainer {
+  margin-top: 1rem;
+}

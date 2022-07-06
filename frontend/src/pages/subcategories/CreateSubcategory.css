@@ -1,0 +1,16 @@
+.createSubcategoryContainer {
+  display: flex;
+}
+
+.createSubcategoryContent {
+  flex: 4;
+  padding: 1.5rem 3rem;
+}
+
+.createSubcategoryForm {
+  margin-top: 3rem;
+}
+
+.btnContainer {
+  margin-top: 1rem;
+}

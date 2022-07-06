@@ -1,0 +1,16 @@
+.createBrandContainer {
+  display: flex;
+}
+
+.createBrandContent {
+  flex: 4;
+  padding: 1.5rem 3rem;
+}
+
+.createBrandForm {
+  margin-top: 3rem;
+}
+
+.btnContainer {
+  margin-top: 1rem;
+}
