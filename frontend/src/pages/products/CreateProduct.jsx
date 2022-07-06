@@ -16,7 +16,7 @@ const CreateProduct = () => {
       <div className="content">
         <Sidebar />
 
-        <div className="rightSideContent">
+        <div className="CreateProductContent">
           <div className="productTitleRow">
             <h2 className="title">Add New Product</h2>
           </div>

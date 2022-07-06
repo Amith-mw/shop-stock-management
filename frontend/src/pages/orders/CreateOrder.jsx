@@ -11,17 +11,17 @@ const CreateOrder = () => {
   };
 
   return (
-    <div className="CreateProduct">
+    <div className="CreateOrder">
       <Topbar />
-      <div className="content">
+      <div className="CreateOrderContainer">
         <Sidebar />
 
-        <div className="rightSideContent">
-          <div className="productTitleRow">
+        <div className="CreateOrderContent">
+          <div className="orderTitleRow">
             <h2 className="title">Add New Order</h2>
           </div>
 
-          <div className="createProductForm">
+          <div className="createOrderForm">
             <form action="">
               <label htmlFor="">Name</label>
               <input type="text" />
