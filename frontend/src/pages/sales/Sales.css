@@ -1,0 +1,12 @@
+.salesContainer {
+  display: flex;
+}
+
+.salesContent {
+  flex: 4;
+  padding: 1.5rem;
+}
+
+.salesTitle {
+  font-size: 2rem;
+}
