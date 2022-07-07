@@ -60,7 +60,7 @@ const CreateProduct = () => {
                 <input type="number" />
               </div>
 
-              <div className="btnContainer">
+              <div className="CreateProductBtnContainer">
                 <Button type="submit" btnName={"Create"} btnColor="blue" />
                 <Button type="submit" btnName={"Clear"} btnColor="lightgray" />
               </div>
