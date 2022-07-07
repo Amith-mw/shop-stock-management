@@ -23,24 +23,43 @@ const CreateProduct = () => {
 
           <div className="createProductForm">
             <form action="">
-              <label htmlFor="">Name</label>
-              <input type="text" />
-              <label htmlFor="">Description</label>
-              <input type="text" />
-              <label htmlFor="">Brand</label>
-              <input type="text" />
-              <label htmlFor="">Category</label>
-              <input type="text" />
-              <label htmlFor="">Subcategory</label>
-              <input type="text" />
-              <label htmlFor="">Size</label>
-              <input type="text" />
-              <label htmlFor="">Color</label>
-              <input type="text" />
-              <label htmlFor="">Price</label>
-              <input type="text" />
-              <label htmlFor="">Quantity</label>
-              <input type="number" />
+              <div className="formItem">
+                <label htmlFor="">Name</label>
+                <input type="text" />
+              </div>
+              <div className="formItem">
+                <label htmlFor="">Description</label>
+                <textarea rows={3} />
+              </div>
+              <div className="formItem">
+                <label htmlFor="">Brand</label>
+                <input type="text" />
+              </div>
+              <div className="formItem">
+                <label htmlFor="">Category</label>
+                <input type="text" />
+              </div>
+              <div className="formItem">
+                <label htmlFor="">Subcategory</label>
+                <input type="text" />
+              </div>
+              <div className="formItem">
+                <label htmlFor="">Size</label>
+                <input type="text" />
+              </div>
+              <div className="formItem">
+                <label htmlFor="">Color</label>
+                <input type="text" />
+              </div>
+              <div className="formItem">
+                <label htmlFor="">Price</label>
+                <input type="text" />
+              </div>
+              <div className="formItem">
+                <label htmlFor="">Quantity</label>
+                <input type="number" />
+              </div>
+
               <div className="btnContainer">
                 <Button type="submit" btnName={"Create"} btnColor="blue" />
                 <Button type="submit" btnName={"Clear"} btnColor="lightgray" />

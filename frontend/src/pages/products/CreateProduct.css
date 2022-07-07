@@ -18,11 +18,27 @@
 form {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  /* gap: 0.5rem; */
   width: 60%;
+}
+
+.formItem {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
 }
 
 input {
   padding: 0.5rem;
   font-size: 1rem;
+}
+
+textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.btnContainer {
+  text-align: right;
 }
